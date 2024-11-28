@@ -58,7 +58,7 @@ Install my-project with npm
 |     |     └── Dashboard.jsx     
 |     |     └── Home.jsx     
 |     ├── routes
-|     |   └── Routs.jsx
+|     |     └── Routs.jsx
 └── Main.jsx
 
 ```
