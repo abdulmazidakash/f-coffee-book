@@ -13,7 +13,9 @@ This project is used by the following companies:
 | daisy ui | css |
 | react router dom |  router |
 | react-tabs |  tabs |
-| react-toasty |  toasty |
+| react-hot-toast |  toasty |
+| react-icons |  icons |
+| react-helmet |  dynamic page title |
 
  
 
@@ -22,21 +24,26 @@ This project is used by the following companies:
 
 This project is used by the following companies:
 
-- useState
-- useParams
-- useLoader
+- useState (data)
+- useParams (dynamic ${id})
+- useLoader (all data)
+- useLocation (/pathname)
+- useEffect (()=>{},[])
+
 
 
 
 ## Live Link
 
-https://boi-poka-akash.surge.sh/
+https://coffee-book-akash.netlify.app/
 
 ## Features
 
-- local storage
-- sort by rating and page
-- mark as read
+- local storage data and remove
+- add favorite button disabled
+- sort by rating and popularity
+- active tab
+
 
 
 
@@ -46,28 +53,38 @@ Install my-project with npm
 
 ```bash
 └── src/
-|     ├── assets
-|     ├── components
+|     ├── assets/
+|     ├── components/
+|     |     └── Banner.jsx
+|     |     └── Card.jsx
+|     |     └── Categories.jsx
+|     |     └── CoffeeCards.jsx
 |     |     └── Footer.jsx
+|     |     └── Heading.jsx
 |     |     └── Navbar.jsx
-|     ├── layouts
+|     ├── layouts/
 |     |     └── MainLayout.jsx     
-|     ├── pages
+|     ├── pages/
 |     |     └── CoffeeDetails.jsx     
 |     |     └── Coffees.jsx     
 |     |     └── Dashboard.jsx     
 |     |     └── Home.jsx     
-|     ├── routes
-|     |     └── Routs.jsx
+|     ├── routes/
+|     |     └── Routes.jsx
+|     ├── utils/
+|     |     └── index.js
 └── Main.jsx
 
 ```
     
 ## Boi-Poka View
 
-![App Screenshot](https://i.ibb.co.com/t872Kmh/boi-poka.jpg)
+- Home page
+![App Screenshot](https://i.ibb.co.com/yYXWz6W/coffee-book.jpg)
 
-![App Screenshot](https://i.ibb.co.com/MVL61MZ/sort-by.jpg)
+- Coffees pages
+![App Screenshot](https://i.ibb.co.com/Wy62PmJ/coffees-pages.jpg)
 
-![App Screenshot](https://i.ibb.co.com/Gd08dcc/book-details.jpg)
+- Dashboard pages
+![App Screenshot](https://i.ibb.co.com/XW4gzxj/dashboard-pages.jpg)
 
