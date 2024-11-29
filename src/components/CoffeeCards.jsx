@@ -9,6 +9,7 @@ const CoffeeCards = () => {
 	const {category} = useParams();
 	const [coffees, setCoffees] = useState([]);
 	const navigate = useNavigate();
+	console.log(navigate);
 
 	// console.log(category);
 	// console.log(data);

@@ -29,6 +29,7 @@ This project is used by the following companies:
 - useLoader (all data)
 - useLocation (/pathname)
 - useEffect (()=>{},[])
+- useNavigate (navigate function)
 
 
 

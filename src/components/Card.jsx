@@ -8,7 +8,7 @@ const Card = ({coffee, handleRemove}) => {
 	// console.log(pathname);
 
 	const { name, image, category, origin, type, rating, popularity, id } = coffee ;
-	console.log(coffee);
+	// console.log(coffee);
 
 	return (
 		<div className="flex relative">
